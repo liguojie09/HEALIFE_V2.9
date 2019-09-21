@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#fff"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:textColor="#4B4453"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:hint="Username"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawablePadding="5dp"
+        android:maxLines="1"
+        android:layout_marginTop="150dp"
+        android:lines="1"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:gravity="center"
+        android:layout_below="@+id/username"
+        android:inputType="textPassword"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawablePadding="5dp"
+        android:maxLines="1"
+        android:lines="1"
+        android:layout_marginTop="15dp"
+        android:singleLine="true"
+        />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_below="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="15dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:text="Login"
+        android:background="#0089BA"
+        />
+
+<!--
+    <Button
+        android:id="@+id/ReBtn"
+        android:layout_toRightOf="@+id/loginBtn"
+        android:layout_below="@+id/password"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:text="Register"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:background="@drawable/press_btn"
+        />
+-->
+
+</RelativeLayout>

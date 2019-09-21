@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b6e3ff"
+    android:gravity="center_horizontal"
+    tools:context=".MapsFragment">
+
+
+    <ListView
+        android:id="@+id/jokes_list"
+        android:layout_width="380dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/press_btn"
+        >
+    </ListView>
+
+
+</RelativeLayout>

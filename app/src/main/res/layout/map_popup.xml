@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="296dp"
+    android:layout_height="300dp"
+    android:radius="13dp"
+    android:background="#CCFFFFFF"
+    android:gravity="center_horizontal"
+    >
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="202dp"
+        android:layout_height="30dp"
+        android:textColor="#FF030303"
+        android:layout_marginLeft="47dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:fontFamily="SFUIText-regular"
+        android:id="@+id/mark_title"
+        android:textStyle="bold"
+        android:text="HEAL LIFE"
+        />
+
+    <TextView
+        android:paddingTop="6px"
+        android:layout_below="@+id/mark_title"
+        android:layout_width="210dp"
+        android:layout_height="32dp"
+        android:textColor="#FF030303"
+        android:textSize="13dp"
+        android:layout_marginLeft="43dp"
+        android:id="@+id/mark_intro"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="SFUIText-regular"
+        android:text="Makes Life Better"
+        />
+
+    <View
+        android:id="@+id/mark_line1"
+        android:background="#B2B8C6"
+        android:layout_marginTop="115dp"
+        android:layout_width="296dp"
+        android:layout_height="1dp"
+        />
+
+    <TextView
+        android:layout_below="@id/mark_line1"
+        android:id="@+id/map_id"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="SFUIText-regular"
+        android:background="@drawable/apple_like_2"
+        android:gravity="center"
+        android:text="1"
+        android:textStyle="bold"
+        android:textColor="#FF0076FF"
+        android:textSize="17dp"
+        android:top="262dp" />
+
+    <View
+        android:layout_below="@id/map_id"
+        android:id="@+id/mark_line2"
+        android:background="#B2B8C6"
+        android:layout_marginTop="8dp"
+        android:layout_width="296dp"
+        android:layout_height="1dp"
+        />
+
+    <TextView
+        android:layout_below="@id/mark_line2"
+        android:id="@+id/map_name"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="SFUIText-regular"
+        android:gravity="center"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textColor="#FF0076FF"
+        android:background="@drawable/apple_like_2"
+        android:textSize="17dp" />
+
+    <View
+        android:layout_below="@id/map_name"
+        android:id="@+id/mark_line3"
+        android:background="#B2B8C6"
+        android:layout_marginTop="8dp"
+        android:layout_width="296dp"
+        android:layout_height="1dp"
+        />
+
+    <TextView
+        android:layout_below="@id/mark_line3"
+        android:id="@+id/map_address"
+        android:layout_width="296dp"
+        android:background="@drawable/apple_like_2"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="SFUIText-regular"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Address"
+        android:textColor="#FF0076FF"
+        android:textSize="17dp" />
+
+    <View
+        android:layout_below="@id/map_address"
+        android:id="@+id/mark_line4"
+        android:background="#B2B8C6"
+        android:layout_marginTop="8dp"
+        android:layout_width="296dp"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:layout_below="@id/mark_line4"
+        android:id="@+id/medical_mark_cancel"
+        android:layout_width="296dp"
+        android:background="@drawable/apple_like_2"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="SFUIText-regular"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="CANCEL"
+        android:textColor="#FF0076FF"
+        android:textSize="17dp" />
+
+    <View
+        android:layout_below="@id/medical_mark_cancel"
+        android:id="@+id/mark_line5"
+        android:background="#B2B8C6"
+        android:layout_marginTop="8dp"
+        android:layout_width="296dp"
+        android:layout_height="1dp"
+        />
+    <!--<Button
+        android:id="@+id/medical_mark_done"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_app_like"
+        android:text="DONE"
+        android:textColor="#1774ED"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/delect_one"
+        android:layout_width="360dp"
+        android:layout_below="@id/medical_mark_done"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_app_like"
+        android:text="DELETE CURRENT RECORD"
+        android:textColor="#1774ED"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/delect_all"
+        android:layout_width="360dp"
+        android:layout_below="@id/delect_one"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_app_like"
+        android:text="DELETE ALL RELATED RECORD"
+        android:textColor="#1774ED"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/medical_mark_cancel"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/delect_all"
+        android:background="@drawable/btn_app_like"
+        android:text="CANCEL"
+        android:textColor="#1774ED"
+        android:textSize="18dp" />
+-->
+
+
+
+
+    <!--<TextView
+        android:left="105dp"
+        android:top="276dp"
+        android:layout_width="210dp"
+        android:layout_height="32dp"
+        android:textColor="#FF030303"
+        android:textSize="13dp"
+        android:layout_below="@+id/medical_mark_cancel"
+        android:gravity="center"
+        android:font-family="SFUIText-regular"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        />-->
+</RelativeLayout>

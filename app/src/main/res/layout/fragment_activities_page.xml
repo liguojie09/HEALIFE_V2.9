@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomepageFragment">
+
+    <!--<ImageButton
+        android:id="@+id/home_model1"
+        android:layout_marginLeft="10dp"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/home_model1"
+        android:background="@drawable/model_1"/>
+    <ImageButton
+        android:layout_toRightOf="@id/home_model1"
+        android:id="@+id/home_model2"
+        android:layout_marginLeft="10dp"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/home_model2"
+        android:background="@drawable/model_2"/>
+    <ImageButton
+        android:id="@+id/home_model3"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/home_model1"
+        android:layout_width="190dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="130dp"
+        android:src="@drawable/home_model3"
+        android:background="@drawable/model_3"/>-->
+    <!--<ImageView
+        android:layout_marginTop="130dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/reminder_910" />-->
+
+    <ImageButton
+        android:id="@+id/home_model4"
+        android:layout_width="190dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="125dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/reminders3" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0E0202"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:text="Reminders" />
+
+    <!--<ImageButton
+        android:id="@+id/home_model5"
+        android:layout_below="@+id/home_model3"
+        android:src="@drawable/home_model5"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/model_5"/>
+
+    <ImageButton
+        android:id="@+id/home_model6"
+        android:layout_below="@+id/home_model3"
+        android:layout_toRightOf="@id/home_model5"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/home_model6"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/model_6"/>
+    <ImageButton
+        android:id="@+id/home_model7"
+        android:layout_below="@+id/home_model5"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:src="@drawable/home_model7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/model_7"/>-->
+
+    <ImageButton
+        android:id="@+id/home_model8"
+        android:layout_width="190dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="125dp"
+        android:layout_toRightOf="@id/home_model4"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/goal_4" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0E0202"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:text="Daily Goals" />
+
+    <ImageButton
+        android:id="@+id/home_model7"
+        android:layout_width="190dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/home_model4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="55dp"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fitness_2" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0E0202"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:text="Fitness First" />
+
+    <!--<ImageButton
+        android:id="@+id/home_model6"
+        android:layout_width="190dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/home_model4"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="55dp"
+        android:layout_toRightOf="@id/home_model4"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/events_1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="233dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0E0202"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:text="Event Booking" />
+    -->
+
+
+    <!-- <ImageView
+         android:layout_marginTop="155dp"
+         android:layout_width="80dp"
+         android:layout_height="80dp"
+         android:layout_marginLeft="62dp"
+         android:background="@drawable/reminder_910" />
+
+     <ImageView
+         android:layout_width="80dp"
+         android:layout_height="80dp"
+         android:layout_marginLeft="266dp"
+         android:layout_marginTop="155dp"
+         android:background="@drawable/reminder_910" />
+
+     <ImageView
+         android:layout_marginTop="375dp"
+         android:layout_width="80dp"
+         android:layout_height="80dp"
+         android:layout_marginLeft="266dp"
+         android:background="@drawable/reminder_910" />
+
+     <ImageView
+         android:layout_marginTop="375dp"
+         android:layout_width="80dp"
+         android:layout_height="80dp"
+         android:layout_marginLeft="62dp"
+         android:background="@drawable/reminder_910" />
+ -->
+
+
+
+
+
+
+
+</RelativeLayout>

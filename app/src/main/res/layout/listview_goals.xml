@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="260dp"
+    android:layout_height="90dp"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_gravity="center_horizontal"
+    >
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_marginLeft="53dp"
+        android:id="@+id/goals_image"
+        android:background="@drawable/gradient_color"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="80dp" />
+
+</RelativeLayout>

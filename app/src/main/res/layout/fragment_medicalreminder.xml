@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#fff"
+    android:orientation="vertical"
+    >
+    <com.a520wcf.yllistview.YLListView
+        android:divider="@android:color/transparent"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        />
+
+    <TextView
+        android:layout_marginTop="520dp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/test"/>
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_below="@id/listView"
+        android:layout_marginLeft="100dp"
+        android:background="#0089BA"
+        android:textStyle="bold"
+        android:text="ADD REMINDER"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="221dp"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_height="75dp" />
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_below="@id/submit_btn"
+        android:layout_marginLeft="100dp"
+        android:textColor="#fff"
+        android:background="#008F7A"
+        android:textStyle="bold"
+        android:text="CLEAN RECORDS"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="221dp"
+        android:textSize="25sp"
+        android:layout_height="75dp" />
+</RelativeLayout>

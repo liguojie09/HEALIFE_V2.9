@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="333dp"
+    android:layout_height="332dp">
+
+
+    <TextView
+        android:id="@+id/medical_title"
+        android:layout_marginTop="16dp"
+        android:layout_width="120dp"
+        android:layout_marginLeft="105dp"
+        android:layout_height="30dp"
+        android:textColor="#ff000000"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="RECORD"
+        />
+
+    <View
+        android:id="@+id/mark_line1"
+        android:background="#B2B8C6"
+        android:layout_marginTop="50dp"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        />
+
+    <EditText
+        android:id="@+id/medical_start_date"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/mark_line1"
+        android:fontFamily="SFUIText-regular"
+        android:layout_marginLeft="18dp"
+        android:gravity="center"
+        android:text="START DATE"
+        android:textStyle="bold"
+        android:textColor="#FF0076FF"
+        android:textSize="17dp"/>
+
+    <EditText
+        android:id="@+id/medical_end_date"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/mark_line1"
+        android:fontFamily="SFUIText-regular"
+        android:gravity="center"
+        android:layout_toRightOf="@id/medical_start_date"
+        android:textStyle="bold"
+        android:text="END DATE"
+        android:layout_marginLeft="17dp"
+        android:textColor="#FF0076FF"
+        android:textSize="17dp"/>
+
+    <View
+        android:layout_below="@id/medical_end_date"
+        android:id="@+id/mark_line2"
+        android:background="#B2B8C6"
+        android:layout_marginTop="5dp"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        />
+
+    <TextView
+        android:id="@+id/medical_time1"
+        android:layout_width="240dp"
+        android:background="@drawable/model_5"
+        android:layout_height="40dp"
+        android:layout_below="@id/mark_line2"
+        android:fontFamily="SFUIText-regular"
+        android:gravity="center"
+        android:textColor="#FF0076FF"
+        android:textStyle="bold"
+        android:hint="SELECT TIME"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="5dp"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:id="@+id/medical_time2"
+        android:background="@drawable/model_5"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/medical_time1"
+        android:fontFamily="SFUIText-regular"
+        android:gravity="center"
+        android:textColor="#FF0076FF"
+        android:hint="CAN BE BLANK"
+        android:textStyle="bold"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="5dp"
+        android:textSize="17dp"/>
+    <TextView
+        android:id="@+id/medical_time3"
+        android:layout_width="240dp"
+        android:background="@drawable/model_5"
+        android:layout_height="40dp"
+        android:layout_below="@id/medical_time2"
+        android:fontFamily="SFUIText-regular"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FF0076FF"
+        android:hint="CAN BE BLANK"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="5dp"
+        android:textSize="17dp"/>
+
+    <View
+        android:layout_below="@id/medical_time3"
+        android:id="@+id/mark_line3"
+        android:background="#B2B8C6"
+        android:layout_marginTop="8dp"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        />
+
+    <EditText
+        android:id="@+id/medical_subscription"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/mark_line3"
+        android:fontFamily="SFUIText-regular"
+        android:hint="WRITE PRESCRIPTION"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginLeft="47dp"
+        android:textColor="#FF0076FF"
+        android:textSize="17dp"/>
+
+    <View
+        android:layout_below="@id/medical_subscription"
+        android:id="@+id/mark_line4"
+        android:background="#B2B8C6"
+        android:layout_marginTop="1dp"
+        android:layout_width="360dp"
+        android:layout_height="1dp"/>
+
+    <Button
+        android:layout_below="@id/medical_subscription"
+        android:layout_marginTop="4dp"
+        android:id="@+id/medical_cancel"
+        android:textStyle="bold"
+        android:text="YES"
+        android:layout_marginLeft="-10dp"
+        android:textColor="#FFF"
+        android:layout_width="178dp"
+        android:layout_height="62dp"
+        android:background="#008F7A"
+        android:layout_toRightOf="@id/medical_submit"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/medical_subscription"
+        android:id="@+id/medical_submit"
+        android:layout_width="166dp"
+        android:textStyle="bold"
+        android:text="NO"
+        android:layout_height="62dp"
+        android:background="#0089BA"
+        android:textColor="#FFF"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/shoppinglist"
+    >
+
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_marginTop="10dp"
+       android:layout_height="70dp"
+       android:background="#BBE5ED"
+       android:hint="CHANGE LIST NAME..."
+       android:textSize="30dp"
+       android:gravity="center"
+       android:fontFamily="SFUIText-regular"
+       android:id="@+id/list_name"
+       />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:background="#BBE5ED"
+        android:hint="ITEMS"
+        android:textSize="30dp"
+        android:layout_below="@id/list_name"
+        android:gravity="center"
+        android:fontFamily="SFUIText-regular"
+        android:id="@+id/input_item"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="40dp"
+        android:textSize="30dp"
+        android:layout_toRightOf="@id/input_item"
+        android:text="+"
+        android:background="@drawable/model_1"
+        android:layout_below="@id/list_name"
+        android:gravity="center"
+        android:fontFamily="SFUIText-regular"
+        android:id="@+id/input_Button"
+        />
+
+    <ListView
+        android:id="@+id/shopping_item_list"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@id/input_item"
+        android:layout_marginTop="5dp"/>
+</RelativeLayout>

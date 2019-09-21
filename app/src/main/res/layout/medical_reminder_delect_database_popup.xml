@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="333dp"
+    android:layout_height="332dp">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="92dp"
+        android:layout_height="85dp"
+        android:background="@drawable/stopping_img_dialog"
+        android:layout_marginTop="59dp"
+        android:layout_marginLeft="118dp"/>
+    <TextView
+        android:layout_below="@id/img"
+        android:layout_marginTop="16dp"
+        android:layout_width="120dp"
+        android:layout_marginLeft="105dp"
+        android:layout_height="30dp"
+        android:textColor="#ff000000"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/delct_title"
+        android:text="HEAL LIFE"
+        />
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="38dp"
+        android:id="@+id/text_show"
+        android:layout_width="254dp"
+        android:layout_height="37dp"
+        android:textColor="#ff000000"
+        android:layout_below="@+id/delct_title"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="DO YOU WISH TO DELETE ALL RECORDS?"
+
+        />
+
+    <Button
+        android:layout_below="@id/text_show"
+        android:layout_marginTop="37dp"
+        android:id="@+id/medical_database_cancel"
+        android:text="YES"
+        android:textStyle="bold"
+        android:layout_marginLeft="-10dp"
+        android:textColor="#FFF"
+        android:layout_width="178dp"
+        android:layout_height="62dp"
+        android:background="#008F7A"
+        android:layout_toRightOf="@id/medical_database_confir"
+        android:textSize="18dp" />
+
+    <Button
+        android:layout_marginTop="37dp"
+        android:layout_below="@id/text_show"
+        android:id="@+id/medical_database_confir"
+        android:layout_width="166dp"
+        android:text="NO"
+        android:textStyle="bold"
+        android:layout_height="62dp"
+        android:background="#0089BA"
+        android:textColor="#FFF"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>
